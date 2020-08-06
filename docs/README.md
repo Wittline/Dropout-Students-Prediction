@@ -148,8 +148,6 @@ Among the considerations that the fittnes function will take to improve the dist
 
 ## Conclusions and Comments
 
-<p align="justify">
-
 - The information in the dataset is almost uniform, this is because a synthetic method was used to generate this data.
 
 - A value of K = 12 clusters was used to be able to observe in several clusters which students had the lowest levels, the elbow method suggested much lower values, but the segmentations offered by the method did not have the main features for the goal of this project.
@@ -172,7 +170,7 @@ Among the considerations that the fittnes function will take to improve the dist
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
 
-</p>
+
 ### Comments
 <p align="justify">
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
