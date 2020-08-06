@@ -173,6 +173,16 @@ The project was very complete and is closer to the reality of a project with unl
 <summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
+# Contributing and Feedback
+Any ideas or feedback about this repository?. Help me to improve it.
+
+# Authors
+- Created by <a href="https://www.linkedin.com/in/ramsescoraspe"><strong>Ramses Alexander Coraspe Valdez</strong></a>
+- Created on 2020
+
+# License
+This project is licensed under the terms of the MIT license.
+
 
 
 
