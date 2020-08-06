@@ -93,7 +93,7 @@ The answer given by the elbow method does not offer an suitable segmentation to 
 
 ### ANN (Layers and Neurons by Layers of the Neural Network)
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/ann.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/ann.png)
 
 #### Model Accuracy: 94%
 
