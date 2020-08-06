@@ -56,11 +56,11 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 
 ### The variables are not yet scaled, then we will have to scale and standardize the variables, therefore many outliers are shown
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/outliers.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/outliers.png)
 
 ### There are variables giving the same information, they are highly correlated, will have to be removed from the original dataset.
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/corr.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/corr.png)
 
 The following variables were removed from the dataset:
  - nota.conducta 
@@ -73,7 +73,7 @@ The following variables were removed from the dataset:
 
 ### Clustering Analysis with k-means
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/elbow.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/elbow.png)
 
 
 The answer given by the elbow method does not offer an suitable segmentation to be able to separate the possible students who could dropout from those who not, therefore the clusters were visualized and the centroids on these clusters, The table below was used  to make a decision, the variables with the most strengths are:
