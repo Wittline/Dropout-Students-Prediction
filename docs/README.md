@@ -61,7 +61,9 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 ### There are variables giving the same information, they are highly correlated, will have to be removed from the original dataset.
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/corr.png)
+
 The following variables were removed from the dataset:
+
  - nota.conducta 
  - f_plat_1 
  - f_plat_2 
