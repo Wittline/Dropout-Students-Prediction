@@ -14,7 +14,7 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 
 ## Methodology
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/method.PN)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/method.PN)
 
 ## Development
 
@@ -44,11 +44,11 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 
 ### The variables are not yet scaled, then we will have to scale and standardize the variables, therefore many outliers are shown
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/outliers.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/outliers.PNG)
 
 ### There are variables giving the same information, they are highly correlated, will have to be removed from the original dataset.
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/corr.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/corr.PNG)
 
 The following variables were removed from the dataset:
  - nota.conducta 
@@ -61,7 +61,7 @@ The following variables were removed from the dataset:
 
 ### Clustering Analysis with k-means
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/elbow.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/elbow.PNG)
 
 The answer given by the elbow method does not offer an suitable segmentation to be able to separate the possible students who could dropout from those who not, therefore the clusters were visualized and the centroids on these clusters, The table below was used  to make a decision, the variables with the most strengths are:
 
@@ -75,12 +75,12 @@ The answer given by the elbow method does not offer an suitable segmentation to 
  - f_pagos_status 
  - cambio.carrera
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/clusters.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/clusters.PNG)
 
 
 ### ANN (Layers and Neurons by Layers of the Neural Network)
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/ann.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/ann.PNG)
 
 #### Model Accuracy: 94%
 
@@ -93,7 +93,7 @@ The answer given by the elbow method does not offer an suitable segmentation to 
 
 #### From the Test set of 100 students only 16 were selected as possible candidates to dropout
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/students.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/students.PNG)
 
 ### Use of Genetic Algorithm for avoid Students Dropout
 
@@ -105,11 +105,11 @@ n_features: Features offered by the university to avoid possible dropouts.
 
 For this case we have a choromosome of 160 genes or bits where each n_features-bit chunk represents the features selected by the algorithm for a single student.
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/chromosome.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/chromosome.PNG)
 
 Each chunk of size "n_features" represents the genes of student N, and each gene will represent the possible characteristics that the university will give:
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/genes.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genes.PNG)
 
 Among the considerations that the fittnes function will take to improve the distribution of resources are:
 
@@ -140,14 +140,14 @@ The Evaluation of the model with the dataset of 200 students showed an accuracy 
 
 From the Test set of 100 students, the neural network was able to identify 16 of them which could dropout
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/students.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/students.PNG)
 
 The results of the correct distribution of the resources offered by the genetic algorithm are as follows:
 
 **The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/result.PNG)
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/images/genalg_plot.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/result.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.PNG)
 
 ### Comments
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
