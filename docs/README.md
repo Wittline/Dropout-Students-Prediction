@@ -1,8 +1,8 @@
 #  Dropout Students Prediction
 The goal of this project is to identify students at risk of dropping out the school
 
-<details open>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code.html">Cassandra NoSQL</a> </summary>
+<details closed>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ##  Introduction
