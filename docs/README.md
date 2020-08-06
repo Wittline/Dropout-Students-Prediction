@@ -2,7 +2,7 @@
 The goal of this project is to identify students at risk of dropping out the school
 
 <details closed>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ##  Introduction
@@ -17,7 +17,7 @@ The students are not labeled, so a descriptive analysis of the data is required,
 Once the model is built, the Test dataset of 100 students must be used to know which of them will dropout, so It will use a genetic algorithm that can optimize the resources of the university in order to offer opportunities to students and thus avoid dropping out.
 
 <details closed>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ## Methodology
@@ -137,7 +137,7 @@ Among the considerations that the fittnes function will take to improve the dist
     showed patterns of good performance.
 
 <details closed>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ## Conclusions and Comments
@@ -168,7 +168,7 @@ The results of the correct distribution of the resources offered by the genetic 
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
 
 <details closed>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 
