@@ -147,29 +147,17 @@ Among the considerations that the fittnes function will take to improve the dist
 </details>
 
 ## Conclusions and Comments
-
 - The information in the dataset is almost uniform, this is because a synthetic method was used to generate this data.
-
 - A value of K = 12 clusters was used to be able to observe in several clusters which students had the lowest levels, the elbow method suggested much lower values, but the segmentations offered by the method did not have the main features for the goal of this project.
-
 - There were a mix of high-performance and low-performance students, students from high socioeconomic levels who did not pay on time and also had already dropout and had very high score averages in high school and college. A large number of clusters allowed me to see small groups of students with low performance.
-
 - 7 features were removed because they were suplying the same information
-
 - The Evaluation of the model with the dataset of 200 students showed an accuracy of 94%.
-
 - From the Test set of 100 students, the neural network was able to identify 16 of them which could dropout
-
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/students.PNG)
-
 - The results of the correct distribution of the resources offered by the genetic algorithm are as follows:
-
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.png)
-
 - **The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
-
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
-
 
 ### Comments
 <p align="justify">
