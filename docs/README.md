@@ -161,7 +161,8 @@ The results of the correct distribution of the resources offered by the genetic 
 
 **The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/result.PNG)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
+
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.PNG)
 
 ### Comments
