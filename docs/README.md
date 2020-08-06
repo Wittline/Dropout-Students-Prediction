@@ -6,6 +6,8 @@ The goal of this project is to identify students at risk of dropping out the sch
 </details>
 
 ##  Introduction
+
+<p align="center">
 From a set of files which contains information about the first two semesters of 1000 students, they must be integrated into a single file for subsequent analysis, the final file must be separated into three groups:
 
 100 Students for Testing
@@ -16,6 +18,7 @@ The students are not labeled, so a descriptive analysis of the data is required,
 
 Once the model is built, the Test dataset of 100 students must be used to know which of them will dropout, so It will use a genetic algorithm that can optimize the resources of the university in order to offer opportunities to students and thus avoid dropping out.
 
+</p>
 <details closed>
 <summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
