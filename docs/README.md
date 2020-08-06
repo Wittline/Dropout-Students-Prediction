@@ -169,7 +169,7 @@ Among the considerations that the fittnes function will take to improve the dist
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.png)
 
-**The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
+- **The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
 
