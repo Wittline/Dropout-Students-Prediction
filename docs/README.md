@@ -26,7 +26,7 @@ The students are not labeled, so a descriptive analysis of the data is required,
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/method.PNG)
 
 <details closed>
-<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ## Development
