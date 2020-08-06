@@ -159,11 +159,12 @@ From the Test set of 100 students, the neural network was able to identify 16 of
 
 The results of the correct distribution of the resources offered by the genetic algorithm are as follows:
 
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.png)
+
 **The entire budget was not used so there was a saving of (10000 USD - 5240 USD) = 4760 USD**
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genalg_plot.PNG)
 
 ### Comments
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
