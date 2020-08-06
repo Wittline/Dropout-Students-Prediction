@@ -1,6 +1,10 @@
 #  Dropout Students Prediction
 The goal of this project is to identify students at risk of dropping out the school
 
+<details open>
+<summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/code.html">Cassandra NoSQL</a> </summary>
+</details>
+
 ##  Introduction
 From a set of files which contains information about the first two semesters of 1000 students, they must be integrated into a single file for subsequent analysis, the final file must be separated into three groups:
 
