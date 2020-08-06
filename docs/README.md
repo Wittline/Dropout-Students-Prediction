@@ -131,7 +131,7 @@ Each chunk of size "n_features" represents the genes of student N, and each gene
 
 Among the considerations that the fittnes function will take to improve the distribution of resources are:
 
- 1. A scholarship will not be given to students who already have a
+1. A scholarship will not be given to students who already have a
     scholarship, if this happens it is penalized.
 2. Scholarships will only be given to students with a socioeconomic
     level of value 4.
@@ -141,7 +141,7 @@ Among the considerations that the fittnes function will take to improve the dist
     a scholarship and is also of a socioeconomic level 4, obviously the
     fittnes function will be penalized, since this student already
     showed patterns of good performance.
-
+    
 <details closed>
 <summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
