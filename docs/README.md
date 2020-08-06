@@ -164,7 +164,6 @@ The results of the correct distribution of the resources offered by the genetic 
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
 
-
 ### Comments
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
 
