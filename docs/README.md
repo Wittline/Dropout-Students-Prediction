@@ -7,7 +7,7 @@ The goal of this project is to identify students at risk of dropping out the sch
 
 ##  Introduction
 
-<p align="center">
+<p align="justify">
 From a set of files which contains information about the first two semesters of 1000 students, they must be integrated into a single file for subsequent analysis, the final file must be separated into three groups:
 
 100 Students for Testing
