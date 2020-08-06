@@ -75,6 +75,7 @@ The following variables were removed from the dataset:
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/elbow.PNG)
 
+
 The answer given by the elbow method does not offer an suitable segmentation to be able to separate the possible students who could dropout from those who not, therefore the clusters were visualized and the centroids on these clusters, The table below was used  to make a decision, the variables with the most strengths are:
 
  - f_as_1 
