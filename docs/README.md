@@ -14,7 +14,7 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 
 ## Methodology
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/method.PN)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/method.PNG)
 
 ## Development
 
