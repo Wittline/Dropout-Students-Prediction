@@ -14,9 +14,7 @@ From a set of files which contains information about the first two semesters of 
 200 Students to Evaluate the Model
 700 Students to Train the Model.
 
-The students are not labeled, so a descriptive analysis of the data is required, kmeans must be used to be able to labeled the data based on a clustering analysis, once the students are labeled. An artificial neural network must be used to train a model In order to predict which students will dropout. 
-
-Once the model is built, the Test dataset of 100 students must be used to know which of them will dropout, so It will use a genetic algorithm that can optimize the resources of the university in order to offer opportunities to students and thus avoid dropping out.
+The students are not labeled, so a descriptive analysis of the data is required, kmeans must be used to be able to labeled the data based on a clustering analysis, once the students are labeled. An artificial neural network must be used to train a model In order to predict which students will dropout. Once the model is built, the Test dataset of 100 students must be used to know which of them will dropout, so It will use a genetic algorithm that can optimize the resources of the university in order to offer opportunities to students and thus avoid dropping out.
 
 </p>
 <details closed>
@@ -79,8 +77,9 @@ The following variables were removed from the dataset:
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/elbow.png)
 
-
+<p align="justify">
 The answer given by the elbow method does not offer an suitable segmentation to be able to separate the possible students who could dropout from those who not, therefore the clusters were visualized and the centroids on these clusters, The table below was used  to make a decision, the variables with the most strengths are:
+</p>
 
  - f_as_1 
  - f_as_2 
@@ -113,8 +112,9 @@ The answer given by the elbow method does not offer an suitable segmentation to 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/students.PNG)
 
 ### Use of Genetic Algorithm for avoid Students Dropout
-
+<p align="justify">
 The university has a budget of 10,000 USD and this money must be distributed correctly among the students who are likely to dropout, the genetic algorithm will help us find the best distribution fairly based on the information that is being provided by the fittness function, the size of the chromosome is expressed as:
+</p>
 
 size: (n_students * n_features)
 n_students: Students who are going to drop out
@@ -128,6 +128,7 @@ Each chunk of size "n_features" represents the genes of student N, and each gene
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genes.PNG)
 
+<p align="justify">
 Among the considerations that the fittnes function will take to improve the distribution of resources are:
 
  1. A scholarship will not be given to students who already have a
@@ -140,18 +141,20 @@ Among the considerations that the fittnes function will take to improve the dist
     a scholarship and is also of a socioeconomic level 4, obviously the
     fittnes function will be penalized, since this student already
     showed patterns of good performance.
-
+</p>
 <details closed>
 <summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
 
 ## Conclusions and Comments
 
+<p align="justify">
 The information in the dataset is almost uniform, this is because a synthetic method was used to generate this data.
 
 A value of K = 12 clusters was used to be able to observe in several clusters which students had the lowest levels, the elbow method suggested much lower values, but the segmentations offered by the method did not have the main features for the goal of this project.
 
 There were a mix of high-performance and low-performance students, students from high socioeconomic levels who did not pay on time and also had already dropout and had very high score averages in high school and college. A large number of clusters allowed me to see small groups of students with low performance.
+</p>
 
 7 features were removed because they were suplying the same information
 
@@ -170,8 +173,9 @@ The results of the correct distribution of the resources offered by the genetic 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/results.PNG)
 
 ### Comments
+<p align="justify">
 The project was very complete and is closer to the reality of a project with unlabeled data, an unsupervised learning technique was used that was effective, the work of finding the clusters to be able to label the students was a difficult job,  also i think that the integration process should be by using an ETL tool and not using the .R script
-
+</p>
 <details closed>
 <summary> <a href="https://wittline.github.io/Dropout-Students-Prediction/report_Dropout_Student_Prediction.html">Check the code here</a> </summary>
 </details>
