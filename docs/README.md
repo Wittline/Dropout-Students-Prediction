@@ -149,8 +149,9 @@ Among the considerations that the fittnes function will take to improve the dist
 ## Conclusions and Comments
 
 <p align="justify">
+ 
 - The information in the dataset is almost uniform, this is because a synthetic method was used to generate this data.
-
+ 
 - A value of K = 12 clusters was used to be able to observe in several clusters which students had the lowest levels, the elbow method suggested much lower values, but the segmentations offered by the method did not have the main features for the goal of this project.
 
 - There were a mix of high-performance and low-performance students, students from high socioeconomic levels who did not pay on time and also had already dropout and had very high score averages in high school and college. A large number of clusters allowed me to see small groups of students with low performance.
