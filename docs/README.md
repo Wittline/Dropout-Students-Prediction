@@ -61,7 +61,6 @@ Once the model is built, the Test dataset of 100 students must be used to know w
 ### There are variables giving the same information, they are highly correlated, will have to be removed from the original dataset.
 
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/corr.png)
-
 The following variables were removed from the dataset:
  - nota.conducta 
  - f_plat_1 
@@ -93,7 +92,7 @@ The answer given by the elbow method does not offer an suitable segmentation to 
 
 ### ANN (Layers and Neurons by Layers of the Neural Network)
 
-![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/ann.png)
+![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/ann.jpeg)
 
 #### Model Accuracy: 94%
 
