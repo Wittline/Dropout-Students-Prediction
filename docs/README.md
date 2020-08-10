@@ -10,9 +10,9 @@ The goal of this project is to identify students at risk of dropping out the sch
 <p align="justify">
 From a set of files which contains information about the first two semesters of 1000 students, they must be integrated into a single file for subsequent analysis, the final file must be separated into three groups:
 
-100 Students for Testing
-200 Students to Evaluate the Model
-700 Students to Train the Model.
+- 100 Students for Testing
+- 200 Students to Evaluate the Model
+- 700 Students to Train the Model.
 
 The students are not labeled, so a descriptive analysis of the data is required, kmeans must be used to be able to labeled the data based on a clustering analysis, once the students are labeled. An artificial neural network must be used to train a model In order to predict which students will dropout. Once the model is built, the Test dataset of 100 students must be used to know which of them will dropout, so It will use a genetic algorithm that can optimize the resources of the university in order to offer opportunities to students and thus avoid dropping out.
 
