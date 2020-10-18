@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: "Dropout Students Prediction"
 description: "The goal of this project is to identify students at risk of dropping out the school using K-Means Genetic Algorithms and ANN"
+author: "Ramses Alexander Coraspe Valdez"
