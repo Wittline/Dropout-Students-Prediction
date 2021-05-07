@@ -129,6 +129,26 @@ Each chunk of size "n_features" represents the genes of student N, and each gene
 ![alt text](https://wittline.github.io/Dropout-Students-Prediction/Images/genes.PNG)
 
 
+```R
+Finalbudget <- 0
+best <- ga.one$population[ga.one$evaluations == min(ga.one$best),][1,]
+
+iter <- 1
+for(i in 1:n_students) {
+    
+    best_genes <- best[iter:(n_features * i)]
+    print(rownames(dropout_students[dropout_students$id_alumno==i,]))
+    print(best_genes)
+    best.items <- items$student.features[best_genes == 1]
+    print(best.items)
+    Finalbudget <- Finalbudget + best_genes %*% items$budget.features
+    iter <- iter + n_features
+}
+
+Finalbudget
+```
+
+
 Among the considerations that the fittnes function will take to improve the distribution of resources are:
 
 1. A scholarship will not be given to students who already have a
